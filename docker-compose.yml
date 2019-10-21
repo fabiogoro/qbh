@@ -1,0 +1,10 @@
+version: '3'
+services:
+  qbh:
+    build: .
+    image: qbh:latest
+    ports:
+    - "8888:8888"
+    volumes:
+    - .:/app
+    - ./vamp:/root/vamp

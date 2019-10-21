@@ -1,0 +1,3 @@
+[submodule "extra/asymut"]
+	path = extra/asymut
+	url = https://github.com/adrianomitre/asymut

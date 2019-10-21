@@ -1,0 +1,4 @@
+#! /bin/zsh
+cd /app/code/pitch
+zsh wavnpy.sh
+zsh midnpy.sh

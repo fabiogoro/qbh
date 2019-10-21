@@ -1,0 +1,4 @@
+#! /bin/zsh
+cd /app/code/qxq
+python match.py > temp_score.csv
+mv temp_score.csv scores.csv
