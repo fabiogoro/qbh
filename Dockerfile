@@ -35,7 +35,7 @@ RUN /bin/bash scripts/install_asymut.sh
 RUN pip install numpy
 RUN pip install --no-cache-dir matplotlib midiutil vamp librosa
 RUN pip3 install --no-cache-dir librosa matplotlib numpy
-RUN pip3 install midiutil vamp
+RUN pip3 install midiutil vamp jupyter
 
 RUN /bin/bash scripts/install_qbhlib.sh
 COPY scripts/smbgt /bin
