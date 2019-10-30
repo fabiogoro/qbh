@@ -2,3 +2,20 @@
 /app/dataset/mid/*.mid.int.npy 10 
 /app/dataset/mid/*.mid.int.npy 10 
 /app/dataset/mid/*.mid.int.npy 10 
+/app/dataset/mid/*.mid.int.npy 10 
+Recall: 0.0	MRR: 0.0	
+/app/dataset/mid/*.mid.int.npy 10 
+/app/dataset/mid/*.mid.int.npy 10 
+/app/dataset/mid/*.mid.int.npy 10 
+Recall: 0.0	MRR: 0.0	
+/app/dataset/mid/*.mid.int.npy 10 
+Recall: 0.0	MRR: 0.0	
+/app/dataset/mid/*.mid.int.npy 10 
+Recall: 0.0	MRR: 0.0	
+/app/dataset/mid/000*.mid.int.npy 10 
+Recall: 0.16452268111035884	MRR: 0.059336188398476604	
+/app/dataset/mid/000*.mid.int.npy 10 
+/app/dataset/mid/000*.mid.int.npy 10 
+Recall: 0.5441209659219138	MRR: 0.2805059411863743	
+/app/dataset/mid/*.mid.int.npy 10 
+Recall: 0.10877905664635522	MRR: 0.05852686519578861	
