@@ -1,3 +1,17 @@
+## Introduction
+
+This github was created to make reproducible the experiments from the research on query-by-humming that led to the work "Strategies for Matching in Query-by-Humming". Throughout the work, 3 approaches are presented, and there are codes, results and tutorials for each of them in this repository.
+
+The first approach evaluated the recall and MRR from Soundhound for QBH, the results can be seen in [this file](../blob/master/soundhound.xlsx).
+
+The second approach used a condensed representation, abstracting and discarding most of the information from the hummed record, balancing what was necessary to find target results, mostly pitch information or rhythm information from the record. This approach is under the name of `pitch` in the folders `code` and `notebooks`.
+
+The third and last approach followed query against query strategy, which means that a query is compared to a dataset of previously classified queries. The name of the folder for this approach is `qxq`, and can also be seen in `code` and `notebooks`.
+
+The folder `code` contains full code for reproducing the experiments. There are instructions bellow for building and running they using Docker.
+
+The folder `notebooks` contains tutorials for following step-by-step the methodology of the experiment. The tutorials can be read directly from github, but they also can be run inside the docker.
+
 ## Installing dependencies
 
 This project requires Docker, pip and docker-compose. One could install it in linux by running the following:
