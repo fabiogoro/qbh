@@ -2,7 +2,7 @@
 
 This github was created to make reproducible the experiments from the research on query-by-humming that led to the work "Strategies for Matching in Query-by-Humming". Throughout the work, 3 approaches are presented, and there are codes, results and tutorials for each of them in this repository.
 
-The first approach evaluated the recall and MRR from Soundhound for QBH, the results can be seen in [this file](../blob/master/soundhound.xlsx).
+The first approach evaluated the recall and MRR from Soundhound for QBH, the results can be seen in [this file](../master/soundhound.xlsx).
 
 The second approach used a condensed representation, abstracting and discarding most of the information from the hummed record, balancing what was necessary to find target results, mostly pitch information or rhythm information from the record. This approach is under the name of `pitch` in the folders `code` and `notebooks`.
 
